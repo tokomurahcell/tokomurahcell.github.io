@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toko online menjual akun Gmail, Facebook, dan nomor WhatsApp luar negeri">
+    <title>Toko Online Murah</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Toko Online Murah</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="intro">
+        <div class="intro-content">
+            <h2>Selamat datang di Toko Online Murah</h2>
+            <p>Menjual akun Gmail, Facebook, dan nomor WhatsApp luar negeri dengan harga terjangkau!</p>
+            <a href="#products" class="btn">Lihat Produk</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Produk Kami</h2>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="images/gambar_produk1.jpg" alt="Akun Gmail">
+                <h3>Akun Gmail fresh</h3>
+                <p>Harga: Rp1.200</p>
+                <a href="wa.me/6282136035631" class="btn">Beli Sekarang</a>
+            </div>
+            <div class="product-card">
+                <img src="images/gambar_produk2.jpg" alt="Akun Facebook">
+                <h3>Akun Facebook fresh</h3>
+                <p>Harga: Rp600</p>
+                <a href="wa.me/6282136035631" class="btn">Beli Sekarang</a>
+            </div>
+        </div>
+           <div class="product-card">
+                <img src="images/gambar_produk3.jpg" alt="Akun Facebook">
+                <h3>Nokos Wa Luar Negeri</h3>
+                <p>Harga: Rp10.000</p>
+                <a href="wa.me/6282136035631" class="btn">Beli Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Kontak Kami</h2>
+        <p>Jika Anda memiliki pertanyaan, jangan ragu untuk menghubungi kami.</p>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Nama Anda" required>
+            <input type="email" name="email" placeholder="Email Anda" required>
+            <textarea name="message" placeholder="Pesan Anda" required></textarea>
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Toko Online Murah. Semua hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
