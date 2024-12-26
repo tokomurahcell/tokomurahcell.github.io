@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOKOADITYASTORE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>TOKOADITYASTORE</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#produk1">Produk 1</a></li>
+        <li><a href="#produk2">Produk 2</a></li>
+        <li><a href="#keranjang" id="keranjang-link">Keranjang (0)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="produk1" class="produk">
+      <img src="produk1.jpg" alt="Produk 1">
+      <div class="detail-produk">
+        <h2>Gmail Fresh</h2>
+        <p>Pembuatan Manual Tanpa Bot.</p>
+        <p>Harga: Rp 1.200</p>
+        <button onclick="tambahKeKeranjang('produk1')">Tambah ke Keranjang</button>
+      </div>
+    </section>
+
+    <section id="produk2" class="produk">
+      <img src="produk2.jpg" alt="Produk 2">
+      <div class="detail-produk">
+        <h2>Facebook Fresh</h2>
+        <p>Pembuatan Manual.</p>
+        <p>Harga: Rp 700</p>
+        <button onclick="tambahKeKeranjang('produk2')">Tambah ke Keranjang</button>
+      </div>
+    </section>
+
+    <section id="keranjang" class="keranjang">
+      <h2>Keranjang Belanja</h2>
+      <ul id="keranjang-list">
+        <!-- Produk yang ditambahkan akan muncul di sini -->
+      </ul>
+      <p>Total: <span id="total-harga">Rp 0</span></p>
+      <a href="wa.me/6282136035631" class="btn">Beli Sekarang</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Toko 2 Produk</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
