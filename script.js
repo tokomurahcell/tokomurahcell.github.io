@@ -6,7 +6,7 @@ const totalHarga = document.getElementById('total-harga');
 function tambahKeKeranjang(produk) {
   // Menambahkan produk ke keranjang
   if (produk === 'produk1') {
-    keranjang.push({ nama: 'Produk 1', harga: 1200 });
+    keranjang.push({ nama: 'Produk 1', harga: 1000 });
   } else if (produk === 'produk2') {
     keranjang.push({ nama: 'Produk 2', harga: 700 });
   }
